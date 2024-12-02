@@ -1,4 +1,7 @@
 # 區塊鏈與代幣經濟 1202
+myToken.sol: ERC20合約實作範例 
+
+pepeNFT.sol: ERC721合約實作範例
 
 ## 有用的連結們
 [Google Ethereum Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
