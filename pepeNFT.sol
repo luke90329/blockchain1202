@@ -7,17 +7,20 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 
 contract pepeNFT is ERC721URIStorage {
     uint256 private _currentTokenId = 1;
-    string private baseURI = "https://bafybeidhlbt3iyy7bksr2pnvqoyxnw5nej2oqpzauywd4xupfxvlpolhba.ipfs.dweb.link/";
+    string private baseURI = "https://blockchainnft-da014.web.app/";
     mapping(address => bool) private minted;
 
     constructor() ERC721("Pepe", "PEPE") {}
 
-    function mintPepe() public returns (uint256){
+    function mintPepe() public returns (uint256) {
         require(_currentTokenId <= 35, "Exceed mint limit");
         require(!minted[msg.sender], "Already have a pepe");
         uint256 tokenId = _currentTokenId++;
         _mint(msg.sender, tokenId);
-        _setTokenURI(tokenId, string.concat(baseURI, Strings.toString(tokenId), ".json"));
+        _setTokenURI(
+            tokenId,
+            string.concat(baseURI, Strings.toString(tokenId), ".json")
+        );
         minted[msg.sender] = true;
 
         return tokenId;
