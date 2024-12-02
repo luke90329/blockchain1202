@@ -1,4 +1,6 @@
 # 區塊鏈與代幣經濟 1202
+合約檔案皆位於 Contracts 資料夾內
+
 myToken.sol: ERC20合約實作範例 
 
 pepeNFT.sol: ERC721合約實作範例
