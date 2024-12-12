@@ -27,3 +27,6 @@ pepeNFT.sol: ERC721合約實作範例
 
 ## 作業二：ERC721 (NFT)
 1. 依照課堂上的講解，透過 pepeNFT contract 鑄造自己的 NFT，並確認表單中的錢包地址與鑄造 NFT 的錢包地址相同（若不同視為未完成）。
+
+## 聯絡方式
+Email: 112356048@g.nccu.edu.tw
