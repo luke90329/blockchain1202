@@ -14,6 +14,8 @@ pepeNFT.sol: ERC721合約實作範例
 
 [Opensea testnet](https://testnets.opensea.io)
 
+[All minted PEPE NFT](https://testnets.opensea.io/zh-TW/collection/pepe-176)
+
 ## PEPE NFT 合約地址
 
 ```
@@ -28,7 +30,7 @@ pepeNFT.sol: ERC721合約實作範例
 ## 作業二：ERC721 (NFT)
 1. 依照課堂上的講解，透過 pepeNFT contract 鑄造自己的 NFT，並確認表單中的錢包地址與鑄造 NFT 的錢包地址相同（若不同視為未完成）。
 <br>
-作業截止時間：12/16 16:00pm
+作業截止時間：12/20 23:59
 
 ## 作業問題詢問
 Email: 112356048@g.nccu.edu.tw
